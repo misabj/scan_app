@@ -1,6 +1,6 @@
-# Dynamic Web TWAIN React Advanced
+# Scan App
 
-Starting from DWT19.3, the project has been migrated from Create React App to Vite to improve performance and provide a more modern development experience. It utilizes the SDK [Dynamic Web TWAIN](https://www.dynamsoft.com/Products/WebTWAIN_Overview.aspx) to provide the following functionalities
+This React app utilizes the SDK [Dynamic Web TWAIN](https://www.dynamsoft.com/Products/WebTWAIN_Overview.aspx) to provide the following functionalities
 
 * Scan documents from physical scanners
 * Capture images from webcams
@@ -17,7 +17,7 @@ Starting from DWT19.3, the project has been migrated from Create React App to Vi
 - React 18.2.0
 - Vite 5.2.0
 
-1. Apply for a [30-day free trial license](https://www.dynamsoft.com/customer/license/trialLicense?product=dwt) of Dynamic Web TWAIN.
+1. This is a [30-day free trial license](https://www.dynamsoft.com/customer/license/trialLicense?product=dwt) of Dynamic Web TWAIN.
 
 2. Update the license key in `src\DynamsoftSDK.jsx` file:
 
@@ -44,12 +44,4 @@ Starting from DWT19.3, the project has been migrated from Create React App to Vi
    npm install
    node server.js
    ```
-
-## Build
-
-Run `npm run build` to build the project. The build artifacts will be stored in the `build/` directory. 
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
 
